@@ -41,29 +41,34 @@ body {
 span {
   color: tomato;
 }
-/* .half-width p {
-  font-size: 20px;
-  margin-bottom: 35px; 
-}  */
+
 .banner-left {
   margin-top: 80px;
 }
 .btn {
-  background-color: tomato;
-  padding: 14px 25px;
+  color: #fff;
   text-decoration: none;
-  color: white;
-  font-size: 18px;
+  padding: 15px 20px;
+  font-size: 20px;
+  border: none;
   border-radius: 5px;
+  background: tomato;
+  cursor: pointer;
 }
 
 .mission {
   width: 25%;
-  height: 298px;
-  background-color: burlywood;
+  height: 325px;
+  background-color: rgb(225, 243, 191);
   padding: 25px;
-  border-radius: 10px;
+  border-radius: 20px;
   margin-left: 45px;
+}
+.vision {
+  background-color: #edf5f6;
+}
+.goal {
+  background-color: #fff4d6;
 }
 .mission img {
   max-width: 50%;
@@ -96,13 +101,43 @@ span {
   font-size: 50px;
   color: #333333;
 }
-/* .right-cntnt p{
-    color: #333333;
-    line-height: 32px;
-} */
 .right-img img {
   float: right;
   width: 80%;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+}
+.form-box {
+  padding: 10px;
+  border-radius: 5px;
+  background: #ececec;
+  box-shadow: 10px 10px 15x #c7c4c4, -10px -10px 15px #fff;
+}
+.form-box input {
+  font-size: 18px;
+  color: black;
+  padding: 15px 10px;
+  border: none;
+  outline: none;
+  background: #ececec;
+}
+.newsletter {
+  text-align: center;
+  padding: 83px 16px;
+  background-color: #edf5f6;
+}
+.newsletter h1 {
+  color: #333333;
+  font-size: 50px;
+}
+.newsletter p {
+  color: #333333;
+  font-size: 20px;
+  margin-top: -31px;
 }
 
 #footer {
