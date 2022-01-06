@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+.flexed {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+.content-p {
+  color: #333333;
+  line-height: 32px;
+  font-size: 20px;
+  margin-bottom: 35px;
+}
+.half-width {
+  width: 45%;
+  position: relative;
+}
+.half-width img {
+  max-width: 100%;
+}
+.half-width h1 {
+  color: #333333;
+  font-size: 60px;
+  margin-left: 14px;
+}
+.title::before {
+  content: "";
+  height: 23%;
+  width: 1%;
+  position: absolute;
+  background-color: brown;
+  top: 65px;
+  left: -3px;
+  border-radius: 20px;
+}
+span {
+  color: tomato;
+}
+/* .half-width p {
+  font-size: 20px;
+  margin-bottom: 35px; 
+}  */
+.banner-left {
+  margin-top: 80px;
+}
+.btn {
+  background-color: tomato;
+  padding: 14px 25px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.mission {
+  width: 25%;
+  height: 298px;
+  background-color: burlywood;
+  padding: 25px;
+  border-radius: 10px;
+  margin-left: 45px;
+}
+.mission img {
+  max-width: 50%;
+}
+.mission-title {
+  text-align: center;
+}
+.mission-title h1 {
+  font-size: 50px;
+  font-weight: 900;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.mission p {
+  color: #333333;
+  font-size: 16px;
+  line-height: 25px;
+}
+.mission-title h1 span {
+  color: tomato;
+}
+.left-img {
+  max-width: 80%;
+}
+.left-img img {
+  width: 80%;
+}
+.right-cntnt h1 {
+  text-align: left;
+  font-size: 50px;
+  color: #333333;
+}
+/* .right-cntnt p{
+    color: #333333;
+    line-height: 32px;
+} */
+.right-img img {
+  float: right;
+  width: 80%;
+}
+
+#footer {
+  width: 100%;
+  height: 160px;
+  background-color: #0b0d17;
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+}
